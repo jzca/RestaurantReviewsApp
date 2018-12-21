@@ -39,7 +39,8 @@ self.addEventListener('install', function (event) {
 					'js/main.js',
 					'js/restaurant_info.js',
 					'./',
-					'index.html'
+					'index.html',
+					'restaurant.html'
 				]
 			);
 		})
