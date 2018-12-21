@@ -18,7 +18,7 @@ self.addEventListener('install', function (event) {
 	event.waitUntil(
 		caches.open(staticCache).then(function (cache) {
 			return cache.addAll(
-				[			
+				[
 					'img/1.jpg',
 					'img/2.jpg',
 					'img/3.jpg',
@@ -34,13 +34,24 @@ self.addEventListener('install', function (event) {
 					'css/styles.css',
 					'data/manifest.json',
 					'data/restaurants.json',
-					'https://unpkg.com/leaflet@1.3.1/dist/leaflet.js',
 					'js/dbhelper.js',
 					'js/main.js',
 					'js/restaurant_info.js',
 					'./',
-					'index.html',
-					'restaurant.html'
+					'restaurant.html',
+					'https://unpkg.com/leaflet@1.3.1/dist/images/layers-2x.png',
+					'https://unpkg.com/leaflet@1.3.1/dist/images/layers.png',
+					'https://unpkg.com/leaflet@1.3.1/dist/images/marker-icon-2x.png',
+					'https://unpkg.com/leaflet@1.3.1/dist/images/marker-icon.png',
+					'https://unpkg.com/leaflet@1.3.1/dist/images/marker-shadow.png',
+					'https://unpkg.com/leaflet@1.3.1/dist/leaflet-src.js',
+					'https://unpkg.com/leaflet@1.3.1/dist/leaflet-src.js.map',
+					'https://unpkg.com/leaflet@1.3.1/dist/leaflet.css',
+					'https://unpkg.com/leaflet@1.3.1/dist/leaflet.js',
+					'https://unpkg.com/leaflet@1.3.1/dist/leaflet.js.map',
+					'https://api.tiles.mapbox.com/mapbox-gl-js/v0.52.0/mapbox-gl.js',
+					'https://api.tiles.mapbox.com/mapbox-gl-js/v0.52.0/mapbox-gl.css',
+					'index.html'
 				]
 			);
 		})
