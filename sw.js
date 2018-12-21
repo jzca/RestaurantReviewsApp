@@ -18,8 +18,7 @@ self.addEventListener('install', function (event) {
 	event.waitUntil(
 		caches.open(staticCache).then(function (cache) {
 			return cache.addAll(
-				[
-					'README.md',					
+				[			
 					'img/1.jpg',
 					'img/2.jpg',
 					'img/3.jpg',
@@ -30,6 +29,8 @@ self.addEventListener('install', function (event) {
 					'img/8.jpg',
 					'img/9.jpg',
 					'img/10.jpg',
+					'img/icons-192.png',
+					'img/icons-512.png',
 					'css/styles.css',
 					'data/manifest.json',
 					'data/restaurants.json',
@@ -45,10 +46,22 @@ self.addEventListener('install', function (event) {
 	);
 });
 
+
+// self.addEventListener('fetch', function(event) {
+//   event.respondWith(
+// 		caches.match(event.request).then(function (response) {
+//         return response || fetch(event.request).then(function(response) {
+//           caches.put(event.request, response.clone());
+//           return response;
+//         });
+//     })
+//   );
+// });
+
 self.addEventListener('fetch', event => {
 	event.respondWith(
 		caches.match(event.request).then(response => {
-			return response || fetch(event.request)
+			return response || (fetch(event.request))
 		})
 	);
 });
