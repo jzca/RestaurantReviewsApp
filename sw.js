@@ -49,8 +49,12 @@ self.addEventListener('install', function (event) {
 					'https://unpkg.com/leaflet@1.3.1/dist/leaflet.css',
 					'https://unpkg.com/leaflet@1.3.1/dist/leaflet.js',
 					'https://unpkg.com/leaflet@1.3.1/dist/leaflet.js.map',
-					'https://api.tiles.mapbox.com/mapbox-gl-js/v0.52.0/mapbox-gl.js',
-					'https://api.tiles.mapbox.com/mapbox-gl-js/v0.52.0/mapbox-gl.css',
+					'https://api.tiles.mapbox.com/v4/mapbox.streets/12/1207/1540.jpg70?access_token=pk.eyJ1Ijoic2VudHZpcmdvIiwiYSI6ImNqcHhnYzFndDBxMXM0M3FsNm96Z2t6MGgifQ.YSeDwNBRUg8Crf2xzGRZDA',
+					'https://api.tiles.mapbox.com/v4/mapbox.streets/12/1205/1540.jpg70?access_token=pk.eyJ1Ijoic2VudHZpcmdvIiwiYSI6ImNqcHhnYzFndDBxMXM0M3FsNm96Z2t6MGgifQ.YSeDwNBRUg8Crf2xzGRZDA',
+					'https://api.tiles.mapbox.com/v4/mapbox.streets/12/1207/1539.jpg70?access_token=pk.eyJ1Ijoic2VudHZpcmdvIiwiYSI6ImNqcHhnYzFndDBxMXM0M3FsNm96Z2t6MGgifQ.YSeDwNBRUg8Crf2xzGRZDA',
+					'https://api.tiles.mapbox.com/v4/mapbox.streets/12/1205/1539.jpg70?access_token=pk.eyJ1Ijoic2VudHZpcmdvIiwiYSI6ImNqcHhnYzFndDBxMXM0M3FsNm96Z2t6MGgifQ.YSeDwNBRUg8Crf2xzGRZDA',
+					'https://api.tiles.mapbox.com/v4/mapbox.streets/12/1206/1540.jpg70?access_token=pk.eyJ1Ijoic2VudHZpcmdvIiwiYSI6ImNqcHhnYzFndDBxMXM0M3FsNm96Z2t6MGgifQ.YSeDwNBRUg8Crf2xzGRZDA',
+					'https://api.tiles.mapbox.com/v4/mapbox.streets/12/1206/1539.jpg70?access_token=pk.eyJ1Ijoic2VudHZpcmdvIiwiYSI6ImNqcHhnYzFndDBxMXM0M3FsNm96Z2t6MGgifQ.YSeDwNBRUg8Crf2xzGRZDA',
 					'index.html'
 				]
 			);
