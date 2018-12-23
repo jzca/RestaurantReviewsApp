@@ -3,7 +3,7 @@ const my_Key = 'access_token=pk.eyJ1Ijoic2VudHZpcmdvIiwiYSI6ImNqcHhnYzFndDBxMXM0
 
 
 
-const staticCache = 'my-cache-1';
+const staticCache = 'my-cache-app-1';
 
 self.addEventListener('activate', event => {
 	event.waitUntil(
@@ -14,7 +14,7 @@ self.addEventListener('activate', event => {
 				}).map(cacheName => {
 					return caches.delete(cacheName);
 				})
-			)
+			).catch(err => console.log('Activate: '+err))
 		})
 	)
 })
@@ -179,30 +179,17 @@ self.addEventListener('install', function (event) {
 					`https://api.tiles.mapbox.com/v4/mapbox.streets/16/19307/24642.jpg70?${my_Key}`,
 					`https://api.tiles.mapbox.com/v4/mapbox.streets/16/19292/24649.jpg70?${my_Key}`,
 					`https://api.tiles.mapbox.com/v4/mapbox.streets/16/19301/24636.jpg70?${my_Key}`,
-
 					'index.html'
 				]
 			);
-		})
+		}).catch(err => console.log('Install: '+err))
 	);
 });
-
-
-// self.addEventListener('fetch', function(event) {
-//   event.respondWith(
-// 		caches.match(event.request).then(function (response) {
-//         return response || fetch(event.request).then(function(response) {
-//           caches.put(event.request, response.clone());
-//           return response;
-//         });
-//     })
-//   );
-// });
 
 self.addEventListener('fetch', event => {
 	event.respondWith(
 		caches.match(event.request).then(response => {
 			return response || (fetch(event.request))
-		})
+		}).catch(err => console.log('Fetch: '+err))
 	);
 });
