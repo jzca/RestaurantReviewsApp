@@ -102,6 +102,62 @@
 `https://api.tiles.mapbox.com/v4/mapbox.streets/16/19304/24634.jpg70?${my_Key}`,
 `https://api.tiles.mapbox.com/v4/mapbox.streets/16/19305/24634.jpg70?${my_Key}`,
 
+// ADD
+
+`https://api.tiles.mapbox.com/v4/mapbox.streets/16/19297/24638.jpg70?${my_Key}`,
+`https://api.tiles.mapbox.com/v4/mapbox.streets/16/19297/24639.jpg70?${my_Key}`,
+`https://api.tiles.mapbox.com/v4/mapbox.streets/16/19297/24640.jpg70?${my_Key}`,
+`https://api.tiles.mapbox.com/v4/mapbox.streets/16/19297/24641.jpg70?${my_Key}`,
+`https://api.tiles.mapbox.com/v4/mapbox.streets/16/19300/24638.jpg70?${my_Key}`,
+`https://api.tiles.mapbox.com/v4/mapbox.streets/16/19300/24639.jpg70?${my_Key}`,
+`https://api.tiles.mapbox.com/v4/mapbox.streets/16/19300/24640.jpg70?${my_Key}`,
+`https://api.tiles.mapbox.com/v4/mapbox.streets/16/19300/24641.jpg70?${my_Key}`,
+
+
+`https://api.tiles.mapbox.com/v4/mapbox.streets/16/19301/24646.jpg70?${my_Key}`,
+`https://api.tiles.mapbox.com/v4/mapbox.streets/16/19301/24647.jpg70?${my_Key}`,
+`https://api.tiles.mapbox.com/v4/mapbox.streets/16/19301/24648.jpg70?${my_Key}`,
+`https://api.tiles.mapbox.com/v4/mapbox.streets/16/19304/24646.jpg70?${my_Key}`,
+`https://api.tiles.mapbox.com/v4/mapbox.streets/16/19304/24647.jpg70?${my_Key}`,
+`https://api.tiles.mapbox.com/v4/mapbox.streets/16/19304/24648.jpg70?${my_Key}`,
+
+`https://api.tiles.mapbox.com/v4/mapbox.streets/16/19297/24630.jpg70?${my_Key}`,
+`https://api.tiles.mapbox.com/v4/mapbox.streets/16/19300/24633.jpg70?${my_Key}`,
+
+`https://api.tiles.mapbox.com/v4/mapbox.streets/16/19297/24636.jpg70?${my_Key}`,
+`https://api.tiles.mapbox.com/v4/mapbox.streets/16/19297/24637.jpg70?${my_Key}`,
+`https://api.tiles.mapbox.com/v4/mapbox.streets/16/19298/24636.jpg70?${my_Key}`,
+`https://api.tiles.mapbox.com/v4/mapbox.streets/16/19298/24637.jpg70?${my_Key}`,
+`https://api.tiles.mapbox.com/v4/mapbox.streets/16/19300/24649.jpg70?${my_Key}`,
+
+
+`https://api.tiles.mapbox.com/v4/mapbox.streets/16/19307/24640.jpg70?${my_Key}`,
+`https://api.tiles.mapbox.com/v4/mapbox.streets/16/19307/24643.jpg70?${my_Key}`,
+`https://api.tiles.mapbox.com/v4/mapbox.streets/16/19310/24640.jpg70?${my_Key}`,
+`https://api.tiles.mapbox.com/v4/mapbox.streets/16/19310/24642.jpg70?${my_Key}`,
+`https://api.tiles.mapbox.com/v4/mapbox.streets/16/19310/24643.jpg70?${my_Key}`,
+
+`https://api.tiles.mapbox.com/v4/mapbox.streets/16/19292/24648.jpg70?${my_Key}`,
+`https://api.tiles.mapbox.com/v4/mapbox.streets/16/19292/24650.jpg70?${my_Key}`,
+`https://api.tiles.mapbox.com/v4/mapbox.streets/16/19295/24648.jpg70?${my_Key}`,
+`https://api.tiles.mapbox.com/v4/mapbox.streets/16/19295/24649.jpg70?${my_Key}`,
+`https://api.tiles.mapbox.com/v4/mapbox.streets/16/19295/24650.jpg70?${my_Key}`,
+
+`https://api.tiles.mapbox.com/v4/mapbox.streets/16/19298/24635.jpg70?${my_Key}`,
+`https://api.tiles.mapbox.com/v4/mapbox.streets/16/19301/24635.jpg70?${my_Key}`,
+`https://api.tiles.mapbox.com/v4/mapbox.streets/16/19301/24637.jpg70?${my_Key}`,
+`https://api.tiles.mapbox.com/v4/mapbox.streets/16/19301/24638.jpg70?${my_Key}`,
+
+// ADD2
+`https://api.tiles.mapbox.com/v4/mapbox.streets/16/19300/24632.jpg70?${my_Key}`,
+`https://api.tiles.mapbox.com/v4/mapbox.streets/16/19300/24630.jpg70?${my_Key}`,
+
+
+
+
+
+// 8-10
+
 
 '',
 '',
