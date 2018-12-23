@@ -152,8 +152,14 @@
 `https://api.tiles.mapbox.com/v4/mapbox.streets/16/19300/24632.jpg70?${my_Key}`,
 `https://api.tiles.mapbox.com/v4/mapbox.streets/16/19300/24630.jpg70?${my_Key}`,
 
+// ADD #5 ALONE
+`https://api.tiles.mapbox.com/v4/mapbox.streets/16/19308/24640.jpg70?${my_Key}`,
+`https://api.tiles.mapbox.com/v4/mapbox.streets/16/19309/24640.jpg70?${my_Key}`,
+`https://api.tiles.mapbox.com/v4/mapbox.streets/16/19307/24641.jpg70?${my_Key}`,
+`https://api.tiles.mapbox.com/v4/mapbox.streets/16/19310/24641.jpg70?${my_Key}`,
+`https://api.tiles.mapbox.com/v4/mapbox.streets/16/19307/24642.jpg70?${my_Key}`,
 
-
+`https://api.tiles.mapbox.com/v4/mapbox.streets/16/19292/24649.jpg70?${my_Key}`,
 
 
 // 8-10
