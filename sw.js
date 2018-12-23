@@ -71,6 +71,8 @@ self.addEventListener('install', function (event) {
 					`https://api.tiles.mapbox.com/v4/mapbox.streets/12/1206/1539.jpg70?${my_Key}`,
 					`https://api.tiles.mapbox.com/v4/mapbox.streets/12/1204/1539.jpg70?${my_Key}`,
 					`https://api.tiles.mapbox.com/v4/mapbox.streets/12/1204/1540.jpg70?${my_Key}`,
+					`https://api.tiles.mapbox.com/v4/mapbox.streets/12/1203/1539.jpg70?${my_Key}`,
+					`https://api.tiles.mapbox.com/v4/mapbox.streets/12/1203/1540.jpg70?${my_Key}`,
 					`https://api.tiles.mapbox.com/v4/mapbox.streets/12/1208/1539.jpg70?${my_Key}`,
 					`https://api.tiles.mapbox.com/v4/mapbox.streets/12/1208/1540.jpg70?${my_Key}`,
 					`https://api.tiles.mapbox.com/v4/mapbox.streets/16/19298/24639.jpg70?${my_Key}`,
