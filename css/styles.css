@@ -239,11 +239,18 @@ nav h1 a {
   }
 }
 
-/* @media only screen and (min-width: 600px) {
-  #restaurants-list li {
-    width: 200px;
+@media only screen and (min-width: 600px) {
+  #restaurants-list {
+    display: flex;
+    flex-wrap: wrap;
+    width: 599px;
   }
-} */
+  #restaurants-list li {
+    margin: 10px 5px;
+    width: 215px;
+    height: auto;
+  }
+}
 
 @media only screen and (min-width: 690px) {
   #map {
@@ -257,15 +264,11 @@ nav h1 a {
   }
 
   #restaurants-list {
-    display: flex;
     width: 690px;
     height: 800px;
-    flex-wrap: wrap;
-
   }
 
   #restaurants-list li {
-    margin: 10px 5px;
     width: 260px;
   }
 
