@@ -1,12 +1,12 @@
-if (navigator.serviceWorker) {
-  navigator.serviceWorker.register('sw.js')
-      .then(() => {
-          console.log('Service Worker Installed')
-      })
-      .catch(() => {
-          console.log('Service Worker FAILED! to Install')
-      })
-}
+// if (navigator.serviceWorker) {
+//   navigator.serviceWorker.register('sw.js')
+//       .then(() => {
+//           console.log('Service Worker Installed')
+//       })
+//       .catch(() => {
+//           console.log('Service Worker FAILED! to Install')
+//       })
+// };
 
 let restaurants,
   neighborhoods,
