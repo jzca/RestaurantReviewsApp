@@ -10,7 +10,7 @@ self.addEventListener('activate', event => {
 		caches.keys().then(cacheNames => {
 			return Promise.all(
 				cacheNames.filter(cacheName => {
-					return cacheName.startsWith('my-') && (cacheName !== staticCache)
+					return (cacheName.startsWith('my-') && (cacheName !== staticCache))
 				}).map(cacheName => {
 					return caches.delete(cacheName);
 				})
