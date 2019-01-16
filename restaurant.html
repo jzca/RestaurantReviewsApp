@@ -24,7 +24,7 @@
       <h1><a id="title" href="./">Restaurant Reviews</a></h1>
     </nav>
     <!-- Beginning breadcrumb -->
-    <ul id="breadcrumb">
+    <ul id="breadcrumb" tabindex="1" aria-label="aria-breadcrumb">
       <li><a href="./">Home</a></li>
     </ul>
     <!-- End breadcrumb -->
@@ -33,29 +33,29 @@
   <!-- End header -->
 
   <!-- Beginning main -->
-  <main id="maincontent">
+  <main id="maincontent" role="main" tabindex="0" aria-labelledby="maincontent_label">
     <!-- Beginning map -->
-    <section id="map-container" class="map-con-res">
-      <div id="map" class="map-res"></div>
+    <section id="map-container" class="map-con-res" aria-hidden="true" aria-labelledby="aria-map-description" role="application">
+      <div id="map" class="map-res" aria-hidden="true" aria-labelledby="aria-map-description" role="application"></div>
     </section>
     <!-- End map -->
     <!-- Beginning restaurant -->
-    <div id="words">
-      <section id="restaurant-container">
-        <h1 id="restaurant-name"></h1>
-        <img id="restaurant-img">
-        <p id="restaurant-cuisine"></p>
-        <p id="restaurant-address"></p>
-        <table id="restaurant-hours"></table>
+    <div id="words" aria-labelledby="words_label">
+      <section id="restaurant-container" aria-labelledby="container_label">
+        <h2 id="restaurant-name" tabindex="0"></h2>
+        <img id="restaurant-img"tabindex="0" >
+        <p id="restaurant-cuisine" tabindex="0" aria-labelledby="cuisine_label"></p>
+        <p id="restaurant-address" tabindex="0" aria-labelledby="address_label"></p>
+        <table id="restaurant-hours" tabindex="0" aria-labelledby="hours_label"></table>
       </section>
       <!-- end restaurant -->
       <!-- Beginning reviews -->
-      <section id="reviews-container">
-        <ul id="reviews-list"></ul>
+      <section id="reviews-container" tabindex="0" aria-labelledby="reviews_label">
+        <ul id="reviews-list" tabindex="0" aria-labelledby="reviews_list_label"></ul>
       </section>
       <!-- End reviews -->
       <!-- Beginning footer -->
-      <footer id="footer-res">
+      <footer id="footer-res" tabindex="0" aria-labelledby="footer_label">
         Copyright (c) 2017 <a href="./"><strong>Restaurant Reviews</strong></a> All Rights Reserved.
       </footer>
     </div>
